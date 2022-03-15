@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(247, 13, 157, 0.979);
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(231, 7, 138, 0.9);
 }
 #header.header-top .social-links, #header.header-top h2 {
   display: none;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #fd1689;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -302,7 +302,7 @@ section.section-show {
   padding-bottom: 45px;
 }
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(243, 12, 120, 0.9);
   padding: 30px;
 }
 @media (max-width: 768px) {
@@ -903,7 +903,7 @@ section .container {
   transition: 0.3s;
 }
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #ff1d87;
 }
 .contact .php-email-form {
   padding: 30px;
@@ -941,7 +941,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ff219b;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -973,7 +973,7 @@ section .container {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #d2188b;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -981,7 +981,7 @@ section .container {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #f716be;
 }
 @-webkit-keyframes animate-loading {
   0% {
