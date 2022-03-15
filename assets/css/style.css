@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #d80881;
   color: #fff;
   position: relative;
   background: transparent;
@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #6b1556 url("../img/fond.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -33,12 +33,12 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #ff83e0fa;
   text-decoration: none;
 }
 
 a:hover {
-  color: #35e888;
+  color: #fc74ea;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #ff76d6;
   padding-bottom: 6px;
 }
 #header img {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #d21894;
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(255, 90, 167, 0.9);
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -358,7 +358,7 @@ section .container {
 .about-me .content ul li {
   margin-bottom: 20px;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 .about-me .content ul strong {
   margin-right: 10px;
@@ -1022,7 +1022,7 @@ section .container {
   }
 }
 .credits a {
-  color: #18d26e;
+  color: #8508ce;
   transition: 0.3s;
 }
 .credits a:hover {
