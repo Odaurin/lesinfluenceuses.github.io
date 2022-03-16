@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #ff83e0fa url("../img/fond.png")
+  background-color: #ff83e0fa
   color: #fff;
   position: relative;
   background: transparent;
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(231, 7, 138, 0.9);
+  background-color: rgba(231, 7, 138, 0.9);
 }
 #header.header-top .social-links, #header.header-top h2 {
   display: none;
@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #fd1689;
+  background-color: #ff83e0fa;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -303,7 +303,7 @@ section.section-show {
   padding-bottom: 45px;
 }
 section .container {
-  background: rgba(243, 12, 120, 0.9);
+  background: rgb(255, 95, 169);
   padding: 30px;
 }
 @media (max-width: 768px) {
@@ -331,7 +331,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #ffffff;
   margin: 4px 10px;
 }
 .section-title p {
@@ -350,28 +350,32 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #830c6f;
 }
 .about-me .content ul {
   list-style: none;
   padding: 0;
+  color: #eee;
 }
 .about-me .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: left;
+  color: #eee;
 }
 .about-me .content ul strong {
   margin-right: 10px;
+  color: #eee;
 }
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #830c6f;
   line-height: 0;
 }
 .about-me .content p:last-child {
   margin-bottom: 0;
+  color: #eee;
 }
 
 /*--------------------------------------------------------------
@@ -395,7 +399,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #c318d2;
   border-radius: 50px;
   line-height: 0;
 }
