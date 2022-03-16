@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #d80881;
+  background-color: #ff83e0fa url("../img/fond.png")
   color: #fff;
   position: relative;
   background: transparent;
@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #ff38b3 url("../img/fond.png") top right no-repeat;
+  background: #ff83e0fa top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: #fc74ea;
+  color: #ff83e0fa;
   text-decoration: none;
 }
 
